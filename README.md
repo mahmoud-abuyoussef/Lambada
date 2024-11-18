@@ -1,3 +1,3 @@
-# Lambada_themeforest
-## Demo
-https://mahmoudabuyousef.github.io/Lambada/
+# Lambada
+
+## [Demo Link](https://mahmoud-abuyoussef.github.io/Lambada/)
