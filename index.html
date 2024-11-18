@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lambada</title>
+    <!-- =================================== Fonts ============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/libs/all.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container_page">
+      <!-- ================================== Header ================================ -->
+      <header>
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo/logo-site.png" alt="logo-site" /></a>
+        </div>
+        <div class="form_container">
+          <form>
+            <div class="form__input">
+              <div class="form__input--icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input_box">
+              <div class="input__container">
+                <div class="form__input password">
+                  <div class="form__input--icon">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                  </div>
+                  <input type="text" placeholder="Password" />
+                </div>
+                <button type="submit">
+                  <img src="assets/images/item/login.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="loging-help">
+            <a href="#">Lokking for help logging in?</a>
+          </div>
+        </div>
+      </header>
+      <!-- ================================== Navbar ================================ -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lambada Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Features </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Fully Responsive</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Bootstrap Componenets</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Theme Options</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Font Awesome</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Multilanguage</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Social Media</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Courses </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Grid Format</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Buttons Format</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Collapsed Topics</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">One Topic Format</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">View Couese List</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">View Course Grid</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Typography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Components</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <!-- ================================== Slider ================================ -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/slider/slider01.jpeg" class="d-block w-100 h-100" alt="slide-1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/slider/slider02.jpeg" class="d-block w-100" alt="slide-1" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ================================== Main Content ================================ -->
+      <main>
+        <section class="welcome">
+          <div class="info_text">
+            <h1>
+              Welcome to <br /><br />
+              <span class="bold">Theme Lambada for Moodle</span>
+            </h1>
+            <h3>The perfect choice for your Moodle site</h3>
+            <p>With Theme Lambda for Moodle you can easily create a modern and eye-catching website for your learning environment. It offers various options and comes bundled with lots of easy to use features including tabs, slideshows, accordions, promotion boxes and scalable vector icons.</p>
+          </div>
+          <div class="info_video">
+            <iframe src="https://www.youtube.com/embed/3ORsUGVNxGs" title="🎓 What is Moodle LMS?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section class="services">
+          <div class="serv">
+            <div class="serv__icon">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <h3>Fully Responsive</h3>
+            <p>Adepting to all screens: Your users can access the contents of your Moodle site from mobile phones to desktop computers.</p>
+            <button>Read more</button>
+          </div>
+          <div class="serv select">
+            <div class="serv__icon">
+              <i class="fa fa-map-signs"></i>
+            </div>
+            <h3>
+              Multilanguage<br />
+              Support
+            </h3>
+            <p>Theme Lambda povides a full and native support for multilingual websites in LTR and RTL languages.</p>
+            <button>Read more</button>
+          </div>
+          <div class="serv">
+            <div class="serv__icon">
+              <i class="fa-sharp fa-solid fa-gears"></i>
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>Layouts, plugins, backgrounds and unlimited color options are all easy to set up in the theme's settings panel.</p>
+            <button>Read more</button>
+          </div>
+          <div class="serv select">
+            <div class="serv__icon">
+              <i class="far fa-file-alt"></i>
+            </div>
+            <h3>Full Documentation</h3>
+            <p>Detailed descriptions of all theme options and examples for the included components will ease up your work.</p>
+            <button>Read more</button>
+          </div>
+        </section>
+        <section class="features">
+          <div class="features__include">
+            <h2>Take a closer look at the included features:</h2>
+            <div class="feat__container">
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-regular fa-flag"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Font Icons</h4>
+                  <p>
+                    Font Awesome gives you 1000 scalable vector icons that can instantly be customized - size, color, drop-shadow and much more.
+                    <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-solid fa-image"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Frontpage Settings</h4>
+                  <p>
+                    Create a slideshow that attracts visitors. Display images and informations for your Moodle site with customizable transition effects.
+                    <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Unlimited Colors</h4>
+                  <p>
+                    Theme options that make it easy for you to fully customize the style of your Moodle site: Set the color combination that suits you the best.
+                    <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Components & Animations</h4>
+                  <p>
+                    Theme Lambda includes various "ready-to-use" elements and components designed with nice and smooth animation effects. <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-solid fa-text-height"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Typographie Styles</h4>
+                  <p>
+                    HTML elements with a neat design combined with various CSS classes will help you to style the online content for your Moodle.
+                    <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+              <div class="feat">
+                <div class="feat__icon">
+                  <i class="fa-solid fa-id-badge"></i>
+                </div>
+                <div class="feat__content">
+                  <h4>Social Media</h4>
+                  <p>
+                    Theme Lambda makes it easy for you to place social network icons to your Moodle site. Let your users stay connected with you!
+                    <br />
+                    <a href="#" class="read-more"><i class="fa-solid fa-angles-right"></i> Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container">
+            <div class="about__img">
+              <img src="assets/images/about/lambda_responsive.jpeg" alt="" />
+            </div>
+            <div class="about__content">
+              <h2>One theme - endless possibilities - for all devices</h2>
+              <p>Theme Lambda allows you to build your own style, you get options for everything you need: Lambda is a high quality and very flexible theme with lots of powerful features and theme options. It lets you present your content in whatever way you like. Furthermore: You don't have to care about selecting a 'legacy', a 'mobile' and a 'tablet' version of a theme. Theme Lambda adapts to all screen resolutions. It's responsive and looks great on all devices.</p>
+            </div>
+          </div>
+          <div class="buy-template">
+            <p>
+              <span class="feel">Feeling convinced?</span>
+              Dont't wait any longer...
+              <a href="#" class="buy__link">Buy Lambda Now!</a>
+            </p>
+          </div>
+        </section>
+        <section class="courses">
+          <div class="courses__img">
+            <img src="assets/images/courses/courses-pic03.jpeg" alt="" />
+          </div>
+          <section class="courses__section">
+            <h2>Explore our late courses</h2>
+            <hr />
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/courses/course-img.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course-img2.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course-img3.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course_summary_img_02.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course_summary_img_03.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course_summary_img_06.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/courses/course_summary_img_08.jpeg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer>
+        <div class="footer__sections">
+          <div class="calendar">
+            <h3>Calendar</h3>
+            <caption>
+              July 2023
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>31</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="useful-links"></div>
+          <div class="social-links"></div>
+        </div>
+        <div class="copyright"></div>
+      </footer>
+    </div>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+  </body>
+</html>

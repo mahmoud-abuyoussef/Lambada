@@ -1,0 +1,12 @@
+@use "../helpers/variables" as *;
+footer {
+  background-color: $second_color;
+  padding: 20px;
+  .footer__courses {
+    .calendar {
+      h3 {
+        
+      }
+    }
+  }
+}
